@@ -68,7 +68,7 @@
     flex-wrap: wrap;
   }
   .contact-info-container {
-    margin: 0;
+    margin: 6px;
   }
   .contact-info-container p,
   .nav-links li a {
@@ -98,5 +98,9 @@
   }
   .text-container {
     text-align: justify;
+  }
+
+  footer {
+    margin-top: 20px;
   }
 }
