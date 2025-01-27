@@ -1,0 +1,19 @@
+.hovered {
+  color: var(--color-skyblue-100);
+  cursor: pointer;
+}
+
+.hoverIcon {
+  object-fit: cover;
+}
+
+.iconContainer {
+  margin: 0px;
+  width: 48px;
+  height: 48px;
+}
+
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}

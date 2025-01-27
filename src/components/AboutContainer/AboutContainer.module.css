@@ -1,0 +1,24 @@
+.aboutMe {
+  margin: 0;
+  font-size: var(--font-size-h3);
+}
+
+.aboutcontainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  margin: 140px 15%;
+  max-width: 100%;
+  text-align: justify;
+  color: var(--color-white);
+  font-family: var(--font-jura);
+}
+
+@media screen and (max-width: 750px) {
+  .aboutcontainer {
+    margin: 0px 20px;
+  }
+}

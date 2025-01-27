@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@400;500;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-jura: Jura;
+
+  /* font sizes */
+  --font-size-h1: 56px;
+  --font-size-h2: 42px;
+  --font-size-h3: 38px;
+  --font-size-xl: 36px;  /* Extra large */
+  --font-size-l: 26px;  /* Large */
+  --font-size-m: 22px;  /* Medium */
+  --font-size-s: 18px;  /* Small */
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-skyblue-100: #89e3ff;
+  --color-skyblue-200: #67dbff;
+
+  /* Gaps */
+  --gap-11xs: 2px;
+  --gap-xl: 20px;
+  --gap-47xl: 66px;
+  --gap-14xl: 33px;
+  --gap-base: 16px;
+  --gap-21xl: 40px;
+  --gap-3xl: 22px;
+  --gap-7xs: 6px;
+  --gap-12xl-5: 31.5px;
+  --gap-47xl-1: 66.1px;
+  --gap-mid: 17px;
+  --gap-mid-1: 17.1px;
+  --gap-2xl: 21px;
+  --gap-5xl: 24px;
+  --gap-123xl: 142px;
+  --gap-52xl: 71px;
+  --gap-16xl: 35px;
+  --gap-lg: 18px;
+  --gap-38xl-8: 57.8px;
+  --gap-10xl: 29px;
+
+  /* Paddings */
+  --padding-21xl: 40px;
+  --padding-12xs: 1px;
+  --padding-7xs: 6px;
+  --padding-9xl: 28px;
+  --padding-281xl: 300px;
+  --padding-xl: 20px;
+  --padding-108xl: 127px;
+  --padding-176xl: 195px;
+  --padding-31xl: 50px;
+  --padding-6xl: 25px;
+  --padding-6xs: 7px;
+  --padding-23xl: 42px;
+  --padding-8xl: 27px;
+  --padding-3xl: 22px;
+  --padding-lg: 18px;
+  --padding-lg-5: 18.5px;
+  --padding-10xs: 3px;
+  --padding-11xs: 2px;
+  --padding-4xl: 23px;
+  --padding-64xl: 83px;
+  --padding-mid: 17px;
+  --padding-mid-5: 17.5px;
+  --padding-mini: 15px;
+  --padding-base-5: 15.5px;
+  --padding-sm: 14px;
+  --padding-7xl: 26px;
+  --padding-7xl-5: 26.5px;
+  --padding-81xl: 100px;
+  --padding-66xl: 85px;
+  --padding-14xl: 33px;
+  --padding-14xl-5: 33.5px;
+
+  /* Border radiuses */
+  --br-xl: 20px;
+  --br-mini: 15px;
+}

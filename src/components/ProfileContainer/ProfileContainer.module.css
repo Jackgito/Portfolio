@@ -1,0 +1,80 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.helloIm {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  align-items: center;
+  text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
+}
+
+.juhaniManninen {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  background: linear-gradient(180deg, #67dbff, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  align-items: center;
+}
+
+.aspiringSoftwareEngineer {
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+}
+
+/* Profile picture glow */
+@keyframes shadowShift {
+  from { box-shadow: 0 0 40px var(--color-skyblue-200); }
+  to { box-shadow: 0 0 50px white; }
+}
+
+.profilecontainer {
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-skyblue-200);
+  font-family: var(--font-jura);
+  margin: 200px 20px;
+  height: 800px;
+}
+
+.profilepicIcon {
+  width: 400px;
+  border-radius: 50%;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+  animation: shadowShift 2s ease-in-out infinite alternate;
+  position: absolute;
+  bottom: 0;
+}
+
+.profilecontainer.animate {
+  animation: 2s ease 0s 1 normal forwards fade-in;
+}
+
+
+@media screen and (max-width: 800px) {
+  .profilecontainer {
+    margin: 140px 20px;
+  }
+
+  .profilepicIcon {
+    width: 300px;
+  }
+}
