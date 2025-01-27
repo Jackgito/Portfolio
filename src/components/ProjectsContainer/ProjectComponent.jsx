@@ -18,8 +18,9 @@ const ProjectComponent = ({title, picture, text, demoLink, gitLink}) => {
       <HoverIcon
         icon="github"
         size={48}
-        tooltip="GitHub repository"
+        tooltip={demoLink ? "GitHub repository" : "Repository not available"}
         link={gitLink}
+        disabled={!gitLink}
       />
       </div>
       <div className={styles.imageContainer}>

@@ -23,6 +23,14 @@ const projectTexts = [
   topics. The platform ensures a seamless experience for both mobile and
   desktop users with its responsive design. Authentication is implemented
   to allow registered users to post code snippets and comment on existing posts.
+  
+  `
+  ,
+  
+  `
+  During my internship at ANDRITZ, I created custom panels feature that allowed users to create their own dashboards
+  which was previously done by the developers manually for each site. I also contributed a lot to the documentation and worked as a mentor
+  for one of the other interns.
   `
   ]
   
@@ -58,6 +66,12 @@ const ProjectsContainer = () => {
           text={projectTexts[2]}
           demoLink="https://codebook-4k27.onrender.com"
           gitLink="https://github.com/Jackgito/CodeBook"
+        />
+
+        <ProjectComponent
+          title="Metris BOA"
+          picture="projectBOA.png"
+          text={projectTexts[3]}
         />
 
       </div>
