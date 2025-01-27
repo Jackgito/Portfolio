@@ -2,6 +2,9 @@
 
 This is my personal portfolio website showcasing my skills, projects, and experience. The website was initially generated using Locofy and has been modified by me to better reflect my personal brand and style.
 
+![image](https://github.com/user-attachments/assets/53163af2-93e3-48b7-8c00-cec968a7e6e5)
+
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -73,7 +76,6 @@ If you have any questions or would like to connect, feel free to reach out:
 
 - Email: juhani.manninen00@gmail.com
 - LinkedIn: [Juhani Manninen](https://www.linkedin.com/in/juhani-manninen-07b297204/)
-```
 
 
   
